@@ -1,0 +1,29 @@
+{
+  "name": "playing-with-semantic-release",
+  "version": "1.0.0",
+  "description": "Seeing what its like to use semantic-release",
+  "main": "index.js",
+  "scripts": {
+    "semantic-release": "semantic-release",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benthemonkey/playing-with-semantic-release.git"
+  },
+  "author": "Ben Rothman <bensrothman@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benthemonkey/playing-with-semantic-release/issues"
+  },
+  "homepage": "https://github.com/benthemonkey/playing-with-semantic-release#readme",
+  "devDependencies": {
+    "cz-conventional-changelog": "^2.1.0",
+    "semantic-release": "^11.0.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
